@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bttn_blue"
+    android:layout_gravity="center"
+    android:gravity="right">
+
+    <ImageButton
+        android:id="@+id/close_button"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bttn_clear"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="@null"
+        />
+
+    <TextView
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Thank you!"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:textColor="#fff" />
+
+    <TextView
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingBottom="20sp"
+        android:gravity="center"
+        android:text="Your parcel data has been confirmed."
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="#fff" />
+
+</LinearLayout>

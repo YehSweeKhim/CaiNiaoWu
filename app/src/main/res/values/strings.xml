@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">菜鸟屋</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="not_registered">Not Registered?</string>
+    <string name="register">REGISTER</string>
+    <string name="confirmpassword">Confirm Password</string>
+    <string name="already_registered">Already Registered?</string>
+    <string name="Register">Register</string>
+    <string name="loginpage">Login</string>
+    <string name="shelf">shelf</string>
+    <string name="parcel">parcel</string>
+    <string name="inputShelf">Please include the stand type here</string>
+    <string name="inputParcel">Please include the parcel details here</string>
+    <string name="oldPassword">Old password</string>
+    <string name="changePassword">Confirm password change</string>
+    <string name="newPassword">New password</string>
+    <string name="confirmNewPassword">Confirm new password</string>
+    <string name="signIn">Sign In</string>
+</resources>

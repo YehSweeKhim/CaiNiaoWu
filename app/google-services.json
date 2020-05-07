@@ -1,0 +1,93 @@
+{
+  "project_info": {
+    "project_number": "98999626714",
+    "firebase_url": "https://parcel-data.firebaseio.com",
+    "project_id": "parcel-data",
+    "storage_bucket": "parcel-data.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:98999626714:android:28dc363882eb973a",
+        "android_client_info": {
+          "package_name": "com.example.barcodereader"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "98999626714-sq5b5slk0e3t1mmirlssd92jhibspshp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.barcodereader",
+            "certificate_hash": "780e8514089a59c5d4db706c43f7e1e33383c9c5"
+          }
+        },
+        {
+          "client_id": "98999626714-7a5mhh0foe7d10ie95pvu54vfqsfpr8d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.barcodereader",
+            "certificate_hash": "63591ce1dde550abb064775a8292fb93269ccbbe"
+          }
+        },
+        {
+          "client_id": "98999626714-hgfvhnqu22gt19gnh5pau5cfir6in6n8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4gM5HfplPWZXvcr3stnqI6ClID5EsKx0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "98999626714-hgfvhnqu22gt19gnh5pau5cfir6in6n8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:98999626714:android:0fca53c78e605b9973eee3",
+        "android_client_info": {
+          "package_name": "com.example.cainiaowu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "98999626714-2dkrt52h8m8q2i8hbou4p84evfnlsfeu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cainiaowu",
+            "certificate_hash": "780e8514089a59c5d4db706c43f7e1e33383c9c5"
+          }
+        },
+        {
+          "client_id": "98999626714-hgfvhnqu22gt19gnh5pau5cfir6in6n8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4gM5HfplPWZXvcr3stnqI6ClID5EsKx0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "98999626714-hgfvhnqu22gt19gnh5pau5cfir6in6n8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

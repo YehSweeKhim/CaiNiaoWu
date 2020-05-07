@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity.RegistrationPage"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/background" >
+
+    <ImageView
+        android:layout_width="270dp"
+        android:layout_height="210dp"
+        android:layout_marginTop="100dp"
+        app:srcCompat="@drawable/label_cainiao" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:background="@drawable/label_register" />
+
+        <LinearLayout
+            android:layout_width="320dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/textbox_input" >
+
+            <EditText
+                android:id="@+id/txtUsername"
+                android:singleLine="true"
+                android:layout_width="280dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="start"
+                android:background="#00000000"
+                android:drawableLeft="@drawable/logo_username"
+                android:drawablePadding="10dp"
+                android:hint="@string/username"
+                android:textColorHint="#95ffffff"
+                android:paddingLeft="20dp"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="#ffffff" />
+
+            <ImageButton
+                android:id="@+id/bttnCancelUsername"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:background="@drawable/bttn_cancel"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="320dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/textbox_input" >
+
+
+            <EditText
+                android:id="@+id/txtPassword"
+                android:singleLine="true"
+                android:inputType="textPassword"
+                android:layout_width="280dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="start"
+                android:background="#00000000"
+                android:drawableLeft="@drawable/logo_password"
+                android:drawablePadding="10dp"
+                android:hint="@string/password"
+                android:textColorHint="#95ffffff"
+                android:paddingLeft="20dp"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="#ffffff" />
+
+            <ImageButton
+                android:id="@+id/bttnCancelPassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:background="@drawable/bttn_cancel"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="320dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/textbox_input" >
+
+            <EditText
+                android:id="@+id/txtConfirmpassword"
+                android:singleLine="true"
+                android:inputType="textPassword"
+                android:layout_width="280dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="start"
+                android:background="#00000000"
+                android:drawableLeft="@drawable/logo_password"
+                android:drawablePadding="10dp"
+                android:hint="@string/confirmNewPassword"
+                android:textColorHint="#95ffffff"
+                android:paddingLeft="20dp"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="#ffffff" />
+
+        <ImageButton
+            android:id="@+id/bttnCancelConfirmPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:background="@drawable/bttn_cancel"/>
+
+
+    </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical"
+        android:gravity="right"
+        android:layout_marginLeft="75dp">
+
+        <Button
+            android:id="@+id/bttnRegister"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:background="@drawable/bttn_blue"
+            android:text="@string/Register"
+            android:textColor="#ffff"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:text="@string/already_registered"
+                android:textSize="12sp"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:id="@+id/tvLogin"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:paddingLeft="10dp"
+                android:text="LOGIN"
+                android:textColor="#ffffff"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
